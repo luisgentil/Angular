@@ -1,0 +1,16 @@
+
+<hr />
+
+<h3>Listado</h3>
+
+<ul>
+  <li *ngIf="elementos.length === 0">No hay elementos</li>
+  <li *ngFor="let elemento of elementos">
+    {{ elemento }}
+  </li>
+</ul>
+<p> {{ nuevoElemento }} </p>
+
+<input type="text" [(ngModel)]="nuevoElemento" placeholder="Nuevo elemento" />
+<button (click)="agregarElemento()">Agregar</button>
+

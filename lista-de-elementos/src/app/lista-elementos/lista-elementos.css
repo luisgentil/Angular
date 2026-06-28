@@ -1,0 +1,18 @@
+
+p {
+  font-family: Arial, sans-serif;
+  color: green;
+}
+
+li {
+ font-family: Arial, sans-serif;
+    list-style: circle;
+  text-align: left;
+  color: #361a7a;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+  text-align: left;
+  color: #361a7a;
+}
