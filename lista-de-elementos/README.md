@@ -1,4 +1,20 @@
-# ListaDeElementos
+
+## Informe
+Código de respuesta al primer reto de programación.
+He instalado Node.js y Angular CLI globalmente. He creado un nuevo proyecto de Angular con el comando ng new lista-de-elementos.
+
+He navegado hacia el directorio del proyecto (cd lista-de-elementos) y abierto el proyecto en un editor de código. He utilizado el comando ng generate component lista-elementos para generar un nuevo componente que gestiona la visualización y adición de elementos. En el archivo lista-elementos.component.ts, he definido un arreglo para almacenar los elementos y una función para agregar nuevos elementos al arreglo. He modificado el archivo lista-elementos.component.html para incluir un formulario que permite a los usuarios ingresar un nuevo elemento y un botón para añadir el elemento a la lista. He utilizado *ngFor para mostrar cada elemento del arreglo en la vista del componente.
+
+He añadido estilos básicos utilizando CSS en el archivo lista-elementos.component.css para mejorar la interfaz de usuario.
+
+He ejecutado ng serve y visita http://localhost:4200 en mi navegador para asegurarme de que puedo agregar elementos a la lista y que se muestren correctamente. 
+
+
+En cuanto a la documentación del curso: es difícil generar el código sin acudir a los tutoriales en Angular y Youtube.
+
+
+
+### ListaDeElementos
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.4.
 
